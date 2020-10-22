@@ -4,11 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ExploreContainerComponent } from './explore-container.component';
+import { TimePickerComponent } from './time-picker.component';
 
 @NgModule({
   imports: [ CommonModule, FormsModule, IonicModule],
-  declarations: [ExploreContainerComponent],
-  exports: [ExploreContainerComponent]
+  declarations: [TimePickerComponent],
+  exports: [TimePickerComponent]
 })
-export class ExploreContainerComponentModule {}
+export class TimePickerComponentModule {}

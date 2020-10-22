@@ -1,0 +1,21 @@
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-slides [options]="slideOpts">
+        <ion-slide *ngFor="let hour of hours">
+          <span>{{ hour }}</span>
+        </ion-slide>
+      </ion-slides>
+    </ion-col>
+    <ion-col>
+      <h1 class="devider">:</h1>
+    </ion-col>
+    <ion-col>
+      <ion-slides [options]="slideOpts">
+        <ion-slide *ngFor="let minute of minutes">
+          <span>{{ minute }}</span>
+        </ion-slide>
+      </ion-slides>
+    </ion-col>
+  </ion-row>
+</ion-grid>
